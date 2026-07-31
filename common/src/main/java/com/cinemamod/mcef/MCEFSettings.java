@@ -45,7 +45,7 @@ public class MCEFSettings {
 
     public MCEFSettings() {
         skipDownload = false;
-        downloadMirror = "https://mcef-download.cinemamod.com";
+        downloadMirror = "https://mcef.ena-vocalp.com";
         userAgent = null;
         useCache = true;
     }

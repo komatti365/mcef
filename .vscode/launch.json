@@ -1,0 +1,309 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Neoforge - Client",
+      "presentation": {
+        "group": "NG - neoforge",
+        "order": 0
+      },
+      "projectName": "neoforge",
+      "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+      "args": [
+        "--launchTarget",
+        "neoforgeclientdev",
+        "--version",
+        "21.4.0-beta",
+        "--assetIndex",
+        "asset-index",
+        "--assetsDir",
+        "C:\\Users\\komatti365\\.gradle\\caches\\minecraft\\assets",
+        "--gameDir",
+        ".",
+        "--fml.fmlVersion",
+        "6.0.4",
+        "--fml.mcVersion",
+        "1.21.4",
+        "--fml.neoForgeVersion",
+        "21.4.0-beta",
+        "--fml.neoFormVersion",
+        "20241203.161809"
+      ],
+      "vmArgs": [
+        "-p",
+        "C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\bootstraplauncher\\2.0.2\\1a2d076cbc33b0520cbacd591224427b2a20047d\\bootstraplauncher-2.0.2.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\securejarhandler\\3.0.8\\c0ef95cecd8699a0449053ac7d9c160748d902cd\\securejarhandler-3.0.8.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-commons\\9.7\\e86dda4696d3c185fcc95d8d311904e7ce38a53f\\asm-commons-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-util\\9.7\\c0655519f24d92af2202cb681cd7c1569df6ead6\\asm-util-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-analysis\\9.7\\e4a258b7eb96107106c0599f0061cfc1832fe07a\\asm-analysis-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-tree\\9.7\\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\\asm-tree-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\9.7\\73d7b3086e14beb604ced229c302feff6449723\\asm-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\JarJarFileSystems\\0.4.1\\78f59f89defcd032ed788b151ca6a0d40ace796a\\JarJarFileSystems-0.4.1.jar",
+        "--add-modules",
+        "ALL-MODULE-PATH",
+        "--add-opens",
+        "java.base/java.util.jar\u003dcpw.mods.securejarhandler",
+        "--add-opens",
+        "java.base/java.lang.invoke\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "java.base/sun.security.util\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "jdk.naming.dns/com.sun.jndi.dns\u003djava.naming",
+        "-XX:HeapDumpPath\u003dMojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump",
+        "-Dneoforge.enableGameTest\u003dtrue",
+        "-DlegacyClassPath.file\u003dE:\\github\\mcef\\neoforge\\.gradle\\configuration\\neoForm\\neoFormJoined1.21.4-20241203.161809\\steps\\writeMinecraftClasspathClient\\classpath.txt",
+        "-DignoreList\u003dmixinextras-neoforge-0.4.1.jar,client-extra,neoforge-",
+        "-Djava.net.preferIPv6Addresses\u003dsystem"
+      ],
+      "cwd": "${workspaceFolder}\\neoforge\\run",
+      "env": {
+        "MOD_CLASSES": "neoforge%%E:\\github\\mcef\\neoforge\\bin\\main"
+      },
+      "shortenCommandLine": "argfile"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Neoforge - ClientData",
+      "presentation": {
+        "group": "NG - neoforge",
+        "order": 1
+      },
+      "projectName": "neoforge",
+      "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+      "args": [
+        "--launchTarget",
+        "neoforgeclientdatadev",
+        "--assetIndex",
+        "asset-index",
+        "--assetsDir",
+        "C:\\Users\\komatti365\\.gradle\\caches\\minecraft\\assets",
+        "--gameDir",
+        ".",
+        "--fml.fmlVersion",
+        "6.0.4",
+        "--fml.mcVersion",
+        "1.21.4",
+        "--fml.neoForgeVersion",
+        "21.4.0-beta",
+        "--fml.neoFormVersion",
+        "20241203.161809"
+      ],
+      "vmArgs": [
+        "-p",
+        "C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\bootstraplauncher\\2.0.2\\1a2d076cbc33b0520cbacd591224427b2a20047d\\bootstraplauncher-2.0.2.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\securejarhandler\\3.0.8\\c0ef95cecd8699a0449053ac7d9c160748d902cd\\securejarhandler-3.0.8.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-commons\\9.7\\e86dda4696d3c185fcc95d8d311904e7ce38a53f\\asm-commons-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-util\\9.7\\c0655519f24d92af2202cb681cd7c1569df6ead6\\asm-util-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-analysis\\9.7\\e4a258b7eb96107106c0599f0061cfc1832fe07a\\asm-analysis-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-tree\\9.7\\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\\asm-tree-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\9.7\\73d7b3086e14beb604ced229c302feff6449723\\asm-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\JarJarFileSystems\\0.4.1\\78f59f89defcd032ed788b151ca6a0d40ace796a\\JarJarFileSystems-0.4.1.jar",
+        "--add-modules",
+        "ALL-MODULE-PATH",
+        "--add-opens",
+        "java.base/java.util.jar\u003dcpw.mods.securejarhandler",
+        "--add-opens",
+        "java.base/java.lang.invoke\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "java.base/sun.security.util\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "jdk.naming.dns/com.sun.jndi.dns\u003djava.naming",
+        "-XX:HeapDumpPath\u003dMojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump",
+        "-DlegacyClassPath.file\u003dE:\\github\\mcef\\neoforge\\.gradle\\configuration\\neoForm\\neoFormJoined1.21.4-20241203.161809\\steps\\writeMinecraftClasspathClientData\\classpath.txt",
+        "-DignoreList\u003dmixinextras-neoforge-0.4.1.jar,client-extra,neoforge-",
+        "-Djava.net.preferIPv6Addresses\u003dsystem"
+      ],
+      "cwd": "${workspaceFolder}\\neoforge\\runs\\clientData",
+      "env": {
+        "MOD_CLASSES": "neoforge%%E:\\github\\mcef\\neoforge\\bin\\main"
+      },
+      "shortenCommandLine": "argfile"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Neoforge - GameTestServer",
+      "presentation": {
+        "group": "NG - neoforge",
+        "order": 2
+      },
+      "projectName": "neoforge",
+      "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+      "args": [
+        "--launchTarget",
+        "neoforgeserverdev",
+        "--gameDir",
+        ".",
+        "--fml.fmlVersion",
+        "6.0.4",
+        "--fml.mcVersion",
+        "1.21.4",
+        "--fml.neoForgeVersion",
+        "21.4.0-beta",
+        "--fml.neoFormVersion",
+        "20241203.161809"
+      ],
+      "vmArgs": [
+        "-p",
+        "C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\bootstraplauncher\\2.0.2\\1a2d076cbc33b0520cbacd591224427b2a20047d\\bootstraplauncher-2.0.2.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\securejarhandler\\3.0.8\\c0ef95cecd8699a0449053ac7d9c160748d902cd\\securejarhandler-3.0.8.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-commons\\9.7\\e86dda4696d3c185fcc95d8d311904e7ce38a53f\\asm-commons-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-util\\9.7\\c0655519f24d92af2202cb681cd7c1569df6ead6\\asm-util-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-analysis\\9.7\\e4a258b7eb96107106c0599f0061cfc1832fe07a\\asm-analysis-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-tree\\9.7\\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\\asm-tree-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\9.7\\73d7b3086e14beb604ced229c302feff6449723\\asm-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\JarJarFileSystems\\0.4.1\\78f59f89defcd032ed788b151ca6a0d40ace796a\\JarJarFileSystems-0.4.1.jar",
+        "--add-modules",
+        "ALL-MODULE-PATH",
+        "--add-opens",
+        "java.base/java.util.jar\u003dcpw.mods.securejarhandler",
+        "--add-opens",
+        "java.base/java.lang.invoke\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "java.base/sun.security.util\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "jdk.naming.dns/com.sun.jndi.dns\u003djava.naming",
+        "-Dneoforge.enableGameTest\u003dtrue",
+        "-Dneoforge.gameTestServer\u003dtrue",
+        "-DlegacyClassPath.file\u003dE:\\github\\mcef\\neoforge\\.gradle\\configuration\\neoForm\\neoFormJoined1.21.4-20241203.161809\\steps\\writeMinecraftClasspathGameTestServer\\classpath.txt",
+        "-DignoreList\u003dmixinextras-neoforge-0.4.1.jar,client-extra,neoforge-",
+        "-Djava.net.preferIPv6Addresses\u003dsystem"
+      ],
+      "cwd": "${workspaceFolder}\\neoforge\\runs\\gameTestServer",
+      "env": {
+        "MOD_CLASSES": "neoforge%%E:\\github\\mcef\\neoforge\\bin\\main"
+      },
+      "shortenCommandLine": "argfile"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Neoforge - Junit",
+      "presentation": {
+        "group": "NG - neoforge",
+        "order": 3
+      },
+      "projectName": "neoforge",
+      "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+      "args": [
+        "--launchTarget",
+        "neoforgejunitdev",
+        "--version",
+        "21.4.0-beta",
+        "--assetIndex",
+        "asset-index",
+        "--assetsDir",
+        "C:\\Users\\komatti365\\.gradle\\caches\\minecraft\\assets",
+        "--gameDir",
+        ".",
+        "--fml.fmlVersion",
+        "6.0.4",
+        "--fml.mcVersion",
+        "1.21.4",
+        "--fml.neoForgeVersion",
+        "21.4.0-beta",
+        "--fml.neoFormVersion",
+        "20241203.161809"
+      ],
+      "vmArgs": [
+        "-p",
+        "C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\bootstraplauncher\\2.0.2\\1a2d076cbc33b0520cbacd591224427b2a20047d\\bootstraplauncher-2.0.2.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\securejarhandler\\3.0.8\\c0ef95cecd8699a0449053ac7d9c160748d902cd\\securejarhandler-3.0.8.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-commons\\9.7\\e86dda4696d3c185fcc95d8d311904e7ce38a53f\\asm-commons-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-util\\9.7\\c0655519f24d92af2202cb681cd7c1569df6ead6\\asm-util-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-analysis\\9.7\\e4a258b7eb96107106c0599f0061cfc1832fe07a\\asm-analysis-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-tree\\9.7\\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\\asm-tree-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\9.7\\73d7b3086e14beb604ced229c302feff6449723\\asm-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\JarJarFileSystems\\0.4.1\\78f59f89defcd032ed788b151ca6a0d40ace796a\\JarJarFileSystems-0.4.1.jar",
+        "--add-modules",
+        "ALL-MODULE-PATH",
+        "--add-opens",
+        "java.base/java.util.jar\u003dcpw.mods.securejarhandler",
+        "--add-opens",
+        "java.base/java.lang.invoke\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "java.base/sun.security.util\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "jdk.naming.dns/com.sun.jndi.dns\u003djava.naming",
+        "-XX:HeapDumpPath\u003dMojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump",
+        "-DlegacyClassPath.file\u003dE:\\github\\mcef\\neoforge\\.gradle\\configuration\\neoForm\\neoFormJoined1.21.4-20241203.161809\\steps\\writeMinecraftClasspathJunit\\classpath.txt",
+        "-DignoreList\u003dmixinextras-neoforge-0.4.1.jar,client-extra,neoforge-",
+        "-Djava.net.preferIPv6Addresses\u003dsystem"
+      ],
+      "cwd": "${workspaceFolder}\\neoforge\\runs\\junit",
+      "env": {
+        "MOD_CLASSES": "neoforge%%E:\\github\\mcef\\neoforge\\bin\\main"
+      },
+      "shortenCommandLine": "argfile"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Neoforge - Server",
+      "presentation": {
+        "group": "NG - neoforge",
+        "order": 4
+      },
+      "projectName": "neoforge",
+      "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+      "args": [
+        "--launchTarget",
+        "neoforgeserverdev",
+        "--gameDir",
+        ".",
+        "--fml.fmlVersion",
+        "6.0.4",
+        "--fml.mcVersion",
+        "1.21.4",
+        "--fml.neoForgeVersion",
+        "21.4.0-beta",
+        "--fml.neoFormVersion",
+        "20241203.161809"
+      ],
+      "vmArgs": [
+        "-p",
+        "C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\bootstraplauncher\\2.0.2\\1a2d076cbc33b0520cbacd591224427b2a20047d\\bootstraplauncher-2.0.2.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\securejarhandler\\3.0.8\\c0ef95cecd8699a0449053ac7d9c160748d902cd\\securejarhandler-3.0.8.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-commons\\9.7\\e86dda4696d3c185fcc95d8d311904e7ce38a53f\\asm-commons-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-util\\9.7\\c0655519f24d92af2202cb681cd7c1569df6ead6\\asm-util-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-analysis\\9.7\\e4a258b7eb96107106c0599f0061cfc1832fe07a\\asm-analysis-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-tree\\9.7\\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\\asm-tree-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\9.7\\73d7b3086e14beb604ced229c302feff6449723\\asm-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\JarJarFileSystems\\0.4.1\\78f59f89defcd032ed788b151ca6a0d40ace796a\\JarJarFileSystems-0.4.1.jar",
+        "--add-modules",
+        "ALL-MODULE-PATH",
+        "--add-opens",
+        "java.base/java.util.jar\u003dcpw.mods.securejarhandler",
+        "--add-opens",
+        "java.base/java.lang.invoke\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "java.base/sun.security.util\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "jdk.naming.dns/com.sun.jndi.dns\u003djava.naming",
+        "-DlegacyClassPath.file\u003dE:\\github\\mcef\\neoforge\\.gradle\\configuration\\neoForm\\neoFormJoined1.21.4-20241203.161809\\steps\\writeMinecraftClasspathServer\\classpath.txt",
+        "-DignoreList\u003dmixinextras-neoforge-0.4.1.jar,client-extra,neoforge-",
+        "-Djava.net.preferIPv6Addresses\u003dsystem"
+      ],
+      "cwd": "${workspaceFolder}\\neoforge\\run\\server",
+      "env": {
+        "MOD_CLASSES": "neoforge%%E:\\github\\mcef\\neoforge\\bin\\main"
+      },
+      "shortenCommandLine": "argfile"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Neoforge - ServerData",
+      "presentation": {
+        "group": "NG - neoforge",
+        "order": 5
+      },
+      "projectName": "neoforge",
+      "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+      "args": [
+        "--launchTarget",
+        "neoforgeserverdatadev",
+        "--gameDir",
+        ".",
+        "--fml.fmlVersion",
+        "6.0.4",
+        "--fml.mcVersion",
+        "1.21.4",
+        "--fml.neoForgeVersion",
+        "21.4.0-beta",
+        "--fml.neoFormVersion",
+        "20241203.161809"
+      ],
+      "vmArgs": [
+        "-p",
+        "C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\bootstraplauncher\\2.0.2\\1a2d076cbc33b0520cbacd591224427b2a20047d\\bootstraplauncher-2.0.2.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\securejarhandler\\3.0.8\\c0ef95cecd8699a0449053ac7d9c160748d902cd\\securejarhandler-3.0.8.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-commons\\9.7\\e86dda4696d3c185fcc95d8d311904e7ce38a53f\\asm-commons-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-util\\9.7\\c0655519f24d92af2202cb681cd7c1569df6ead6\\asm-util-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-analysis\\9.7\\e4a258b7eb96107106c0599f0061cfc1832fe07a\\asm-analysis-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-tree\\9.7\\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\\asm-tree-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\9.7\\73d7b3086e14beb604ced229c302feff6449723\\asm-9.7.jar;C:\\Users\\komatti365\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\JarJarFileSystems\\0.4.1\\78f59f89defcd032ed788b151ca6a0d40ace796a\\JarJarFileSystems-0.4.1.jar",
+        "--add-modules",
+        "ALL-MODULE-PATH",
+        "--add-opens",
+        "java.base/java.util.jar\u003dcpw.mods.securejarhandler",
+        "--add-opens",
+        "java.base/java.lang.invoke\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "java.base/sun.security.util\u003dcpw.mods.securejarhandler",
+        "--add-exports",
+        "jdk.naming.dns/com.sun.jndi.dns\u003djava.naming",
+        "-DlegacyClassPath.file\u003dE:\\github\\mcef\\neoforge\\.gradle\\configuration\\neoForm\\neoFormJoined1.21.4-20241203.161809\\steps\\writeMinecraftClasspathServerData\\classpath.txt",
+        "-DignoreList\u003dmixinextras-neoforge-0.4.1.jar,client-extra,neoforge-",
+        "-Djava.net.preferIPv6Addresses\u003dsystem"
+      ],
+      "cwd": "${workspaceFolder}\\neoforge\\runs\\serverData",
+      "env": {
+        "MOD_CLASSES": "neoforge%%E:\\github\\mcef\\neoforge\\bin\\main"
+      },
+      "shortenCommandLine": "argfile"
+    }
+  ]
+}
