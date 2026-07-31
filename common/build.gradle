@@ -52,6 +52,8 @@ dependencies {
         parchment("org.parchmentmc.data:parchment-1.21:2024.07.28@zip")
     }
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
+    jcefCompileOnly "org.jogamp.gluegen:gluegen-rt-main:2.4.0"
+    jcefCompileOnly "org.jogamp.jogl:jogl-all-main:2.4.0"
 }
 
 sourceSets {
@@ -66,6 +68,15 @@ sourceSets {
         compileClasspath += jcef.output
         runtimeClasspath += jcef.output
     }
+}
+
+tasks.named('compileJcefJava', JavaCompile) {
+    options.compilerArgs += [
+        '--add-exports=java.desktop/sun.awt=ALL-UNNAMED',
+        '--add-exports=java.desktop/java.awt.peer=ALL-UNNAMED',
+        '--add-exports=java.desktop/sun.lwawt=ALL-UNNAMED',
+        '--add-exports=java.desktop/sun.lwawt.macosx=ALL-UNNAMED'
+    ]
 }
 
 processResources.dependsOn(processJcefResources)
