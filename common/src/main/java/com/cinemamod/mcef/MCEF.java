@@ -92,7 +92,14 @@ public final class MCEF {
             // Handle shutdown events, macOS is special
             // These are important; the jcef process will linger around if not done
             MCEFPlatform platform = MCEFPlatform.getPlatform();
-            Runtime.getRuntime().addShutdownHook(new Thread(MCEF::shutdown, "MCEF-Shutdown"));
+            if (platform.isLinux() || platform.isWindows()) {
+                Runtime.getRuntime().addShutdownHook(new Thread(MCEF::shutdown, "MCEF-Shutdown"));
+            } else if (platform.isMacOS()) {
+                CefUtil.getCefApp().macOSTerminationRequestRunnable = () -> {
+                    shutdown();
+                    Minecraft.getInstance().stop();
+                };
+            }
 
             return true;
         }
